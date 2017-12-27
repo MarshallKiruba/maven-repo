@@ -1,4 +1,6 @@
-/* Original Author: Kevin Sawicki */
+/* Original Author: Kevin Sawicki 
+ * Description: Maven example 
+ */
 package com.github.maven.example;
 
 /**
