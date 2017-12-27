@@ -1,4 +1,4 @@
-/* Original Author: Kevin Sawicki
+/* Original Author: Kevin Sawicki */
 package com.github.maven.example;
 
 /**
