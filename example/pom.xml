@@ -84,7 +84,7 @@
 				<artifactId>maven-site-plugin</artifactId>
 				<version>3.6</version>
 				<configuration>
-					<reportPlugins>
+					<reporting>
 						<plugin>
 							<groupId>org.apache.maven.plugins</groupId>
 							<artifactId>maven-project-info-reports-plugin</artifactId>
@@ -109,7 +109,7 @@
 							<artifactId>maven-checkstyle-plugin</artifactId>
 							<version>2.6</version>
 						</plugin>
-					</reportPlugins>
+					</reporting>
 				</configuration>
 			</plugin>
 			<plugin>
