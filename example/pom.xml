@@ -3,14 +3,14 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.github.jagiru</groupId>
-	<artifactId>github-maven-example</artifactId>
+	<artifactId>maven-repo</artifactId>
 	<version>0.1-SNAPSHOT</version>
 	<name>GitHub Maven Plugin Example</name>
 	<description>Project to demonstrate GitHub Maven plugins</description>
-	<url>https://github.com/jagiru/github-maven-example</url>
+	<url>https://github.com/jagiru/maven-repo</url>
 
 	<issueManagement>
-		<url>https://github.com/jagiru/github-maven-example/issues</url>
+		<url>https://github.com/jagiru/maven-repo/issues</url>
 		<system>GitHub Issues</system>
 	</issueManagement>
 
@@ -23,9 +23,9 @@
 	</licenses>
 
 	<scm>
-		<url>https://github.com/jagiru/github-maven-example</url>
-		<connection>scm:git:git://github.com/jagiru/github-maven-example.git</connection>
-		<developerConnection>scm:git:git@github.com:jagiru/github-maven-example.git</developerConnection>
+		<url>https://github.com/jagiru/maven-repo</url>
+		<connection>scm:git:git://github.com/jagiru/maven-repo.git</connection>
+		<developerConnection>scm:git:git@github.com:jagiru/maven-repo.git</developerConnection>
 	</scm>
 
 	<developers>
