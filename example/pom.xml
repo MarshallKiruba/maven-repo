@@ -122,6 +122,7 @@
 					<target>1.6</target>
 				</configuration>
 			</plugin>
+			<!--
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
@@ -135,6 +136,12 @@
 					</archive>
 				</configuration>
 			</plugin>
+			-->
+			<plugin>
+			    <groupId>org.apache.maven.plugins</groupId>
+			    <artifactId>maven-war-plugin</artifactId>
+                <version>3.2.0</version>
+            </plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-javadoc-plugin</artifactId>
@@ -142,7 +149,7 @@
 				<executions>
 					<execution>
 						<goals>
-							<goal>jar</goal>
+							<goal>war</goal>
 						</goals>
 					</execution>
 				</executions>
@@ -154,7 +161,7 @@
 				<executions>
 					<execution>
 						<goals>
-							<goal>jar</goal>
+							<goal>war</goal>
 						</goals>
 					</execution>
 				</executions>
