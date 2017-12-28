@@ -4,6 +4,7 @@
 
 	<groupId>com.github.jagiru</groupId>
 	<artifactId>maven-repo</artifactId>
+	<packaging>war</packaging>
 	<version>version-2.0</version>
 	<name>GitHub Maven Plugin Example</name>
 	<description>Project to demonstrate GitHub Maven plugins</description>
@@ -140,8 +141,8 @@
 			<plugin>
 			    <groupId>org.apache.maven.plugins</groupId>
 			    <artifactId>maven-war-plugin</artifactId>
-                <version>3.2.0</version>
-            </plugin>
+                            <version>3.2.0</version>
+                        </plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-javadoc-plugin</artifactId>
@@ -149,7 +150,7 @@
 				<executions>
 					<execution>
 						<goals>
-							<goal>war</goal>
+							<goal>jar</goal>
 						</goals>
 					</execution>
 				</executions>
@@ -161,7 +162,7 @@
 				<executions>
 					<execution>
 						<goals>
-							<goal>war</goal>
+							<goal>jar</goal>
 						</goals>
 					</execution>
 				</executions>
